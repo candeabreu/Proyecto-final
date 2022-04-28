@@ -260,9 +260,10 @@
   
  .encabezado {
 
-     width: 450px;
+     width: 92vw;
      font-size: 10px;
      max-height: 85px;
+     
      
  }
 
@@ -278,7 +279,7 @@
 .listaMenu li {
     padding: 5px;
     position: relative;
-    right: 100px;
+    right: 50px;
     top: 15px;
 }
 
@@ -291,6 +292,7 @@
     text-align: center;
     color: black;
     max-width: 450px;
+    width: 92vw;
     
     }
 
@@ -311,24 +313,23 @@
     right: 50px;
 }
 
-
-
-/*MAIN INDEX MOBILE*/
+/* MAIN INDEX MOBILE */
 
 .contenido{
 
     max-width: 450px;
+    width: 93vw;
 }
 
  .subtituloInicio {
      font-size: 10px;
      border: transparent;
-     width: 400px;
+     width: 93vw;
      position: relative;
      right: 50px;
      background-image: url(imagenes/fondoMobileIndex.png);
      background-size: cover;
-     overflow: cover;
+     
  }
 
  .logoWapp2 {
@@ -340,6 +341,78 @@
      right: 98px
  }
 
+/* NOSOTROS MOBILE */
+
+.contenidoPrincipal {
+    width: 93vw;
+    background-image: url(imagenes/fondonosotrosMobile.png);
+    padding: 0%;
+
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.presentacionNosotros {
+    font-size: 20px;
+}
+
+/* PRODUCTOS MOBILE */
+
+.galeriaProductos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 93vw;
+    
+}
+
+.productosItem {
+ width: 350px;
+ height: 350px;
+
+}
+.tituloProductos {
+    font-size: 20px;
+}
+
+/* ALQUILER DE ESPACIOS MOBILE */
+
+.tituloAlquilerDeEspacios {
+    font-size: 18px;
+    position: relative;
+    right: 15px;
+    
+    
+    }
+    .subtituloAlquiler {
+        font-size: 15px;
+        text-align: center;
+        width: 90vw;
+        position: relative;
+        left: 208px;
+    }
+    
+    .titulosEspaciosDeAlquiler {
+       
+        font-size: 10px;
+        width: 196vw;
+        position: relative;
+        right: 12px;
+        
+    }
+    
+    .galeriaAlquiler {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+        position: relative;
+        right: 12px;
+        
+    }
 
 
  }
